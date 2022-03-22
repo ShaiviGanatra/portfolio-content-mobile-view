@@ -67,6 +67,29 @@
 			<img src="images/knowshaivi-2.jpg" alt="Shaivi's image and she posing besides the lake bank with the mackinac bridge in the background" width="200"></img>
 			<img src="images/knowshaivi-3.jpg" alt="Shaivi's image while she posing in front of a huge true on a sunny day in Ann Arbor" width="200"></img>
 		</div>
+		<!-- modify this form HTML and place wherever you want your form -->
+		<form action="https://formspree.io/f/mdobdrng" method="POST">
+			<fieldset>
+			  <legend>Let's Talk</legend>
+		  
+			  <label for="name_id">Your Name</label>
+			  <i class="fa-solid fa-user"></i>
+			  <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required>
+		  
+			  <label for="email_id">Your Email</label>
+			  <i class="fa-solid fa-envelope"></i>
+			  <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+		  
+			  <label for="phone_id">Your Phone Number</label>
+			  <i class="fa-solid fa-phone-flip"></i>
+			  <input type="tel" id="phone_id" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+		  
+			  <label for="msg">Leave A Message</label>
+			  <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br>
+
+			  <input type="submit" value = "Contact Me">
+			</fieldset>
+		   </form>
 	</main>
 	<!-- Footer is a sematic tag page that aids readability -->
 	<footer>

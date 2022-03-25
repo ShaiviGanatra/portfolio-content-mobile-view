@@ -27,6 +27,8 @@
 	<link rel="stylesheet" href="css/html5reset.css">
 	<!-- Link to the stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
+	<!-- Link to fontawesome kit -->
+	<script src="https://kit.fontawesome.com/547f0561c5.js" crossorigin="anonymous"></script>
 	<title>ABOUT</title>
 </head>
 
@@ -48,26 +50,33 @@
 	</header>
 
 	<!-- Every page should have a main tag for accessibility -->
-	<main id="main">
+	<main id="main" class="container">
 		<!-- The h1 is a semantic tag that aids accessibility -->
-		<div class="intro">
-			<h1>ABOUT</h1>
-			<hr>
+		<div class="min-container">
+			<!-- <h1>ABOUT</h1>
+			<hr> -->
 			<p>
 				I am a Graduate Student and a Research Assistant studying Human Computer Interaction at University of Michigan, Ann Arbor.
 				"I believe that curiosity and desire are the keys to gain insights in life."
 				Curiosity towards connection of art, technology, creativity and desire to implement those thoughts into reality drives me each morning to grow more.
 			</p>
-
+		</div>
+		<div class="min-container">
+			<img src="images/knowshaivi-2.jpg" alt="Girl posing besides the lake bank with the mackinac bridge in the background" width="200"></img>
+		</div>
+		<div class="min-container">
+			<img src="images/knowshaivi-3.jpg" alt="Girl posing in front of a huge true on a sunny day in Ann Arbor" width="200"></img>
+		</div>
+		<div class="min-container">
 			<p>
 				I did my undergrad in Computer Engineering where I learnt various tools, applications, internal systems, coding and important CS concepts.
 				But something that always fascinated me more was the design and the reason why that code is being written.
 				Hence, here I am, an amazing designer with a developer perspective.
 			</p>
-			<img src="images/knowshaivi-2.jpg" alt="Shaivi's image and she posing besides the lake bank with the mackinac bridge in the background" width="200"></img>
-			<img src="images/knowshaivi-3.jpg" alt="Shaivi's image while she posing in front of a huge true on a sunny day in Ann Arbor" width="200"></img>
 		</div>
-		<!-- modify this form HTML and place wherever you want your form -->
+	</main>
+	<!-- Footer is a sematic tag page that aids readability -->
+	<footer>
 		<form action="https://formspree.io/f/mdobdrng" method="POST">
 			<fieldset>
 			  <legend>Let's Talk</legend>
@@ -84,15 +93,13 @@
 			  <i class="fa-solid fa-phone-flip"></i>
 			  <input type="tel" id="phone_id" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 		  
-			  <label for="msg">Leave A Message</label>
-			  <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br>
+			  <label for="msg_id">Leave A Message</label>
+			  <i class="fa-solid fa-message"></i>
+			  <textarea placeholder="Enter your message" id = "msg_id" name="msg" required></textarea><br>
 
 			  <input type="submit" value = "Contact Me">
 			</fieldset>
 		   </form>
-	</main>
-	<!-- Footer is a sematic tag page that aids readability -->
-	<footer>
 		<p>Shaivi Ajay Ganatra &copy; 2022</p>
 	</footer>
 </body>

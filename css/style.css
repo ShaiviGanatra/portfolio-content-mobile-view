@@ -109,6 +109,7 @@ nav{
   flex-direction: column;
   align-items: center;
 }
+
 .intro img{
   padding: 10px;
   margin: 10px;
@@ -292,4 +293,23 @@ input[type=submit]:hover {
   .animation {
     animation-name: mymove;
   }
+}
+
+/* The animation code gallery*/
+
+@keyframes gallery {
+  from{
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* The element to apply the animation to */
+.food-feed img {
+  animation-name: gallery;
+  animation-duration: 5s;
 }
